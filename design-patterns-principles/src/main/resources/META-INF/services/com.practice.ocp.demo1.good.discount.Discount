@@ -1,0 +1,3 @@
+com.practice.ocp.demo1.good.discount.NormalDiscount
+com.practice.ocp.demo1.good.discount.VipDiscount
+com.practice.ocp.demo1.good.discount.EmpDiscount
