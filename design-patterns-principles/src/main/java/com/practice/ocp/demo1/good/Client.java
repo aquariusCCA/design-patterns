@@ -1,8 +1,5 @@
 package com.practice.ocp.demo1.good;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class Client {
     public static void main(String[] args) {
         DiscountService discountService = new DiscountService(DiscountRegistry.loadDiscounts());

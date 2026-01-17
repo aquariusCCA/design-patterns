@@ -11,6 +11,7 @@ public final class DiscountRegistry {
     private DiscountRegistry() {}
 
     public static Map<String, Discount> loadDiscounts() {
+        // NOTE: java-spi编程实践
         ServiceLoader<Discount> loader = ServiceLoader.load(Discount.class);
         Map<String, Discount> map = new HashMap<>();
 
